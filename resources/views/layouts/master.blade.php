@@ -15,7 +15,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <link rel="stylesheet" href="/css/app.css">
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="sidebar-mini" style="height: auto">
 <div class="wrapper" id="app">
     
   <!-- Navbar -->
@@ -101,7 +101,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p>Users</p>
                 </router-link>
               </li>
-              
+
             </ul>
           </li>
 
