@@ -140,7 +140,8 @@
 			}
 		},
 		created() {
-			this.loadUsers();
+            this.loadUsers();
+            setInterval(() => this.loadUsers(), 3000);
 		}
 	}
 </script>
